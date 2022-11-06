@@ -1,0 +1,346 @@
+/* navtop */
+{
+	"nav1": {
+		"scope": "html",
+		"prefix": "navtop",
+		"body": [
+			"<nav class=\"nav header__nav\">",
+			"<ul class=\"nav__list list-reset flex\">",
+			"<li class=\"nav__item\">",
+			"<a class=\"nav__link\" href=\"#\">",
+			"</a>",
+			"</li>",
+			"<li class=\"nav__item\">",
+			"<a class=\"nav__link\" href=\"#\">",
+			"</a>",
+			"</li>",
+			"<li class=\"nav__item\">",
+			"<a class=\"nav__link\" href=\"#\">",
+			"</a>",
+			"</li>",
+			"<li class=\"nav__item\">",
+			"<a class=\"nav__link\" href=\"#\">",
+			"</a>",
+			"</li>",
+			"</ul>",
+			"</nav>"
+		],
+		"description": "snippet for top navigation"
+	}
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+/* acl */
+{
+	"aclass": {
+		"scope": "html",
+		"prefix": "acl",
+		"body": [
+			"<a class=\"$1\" href=\"$2\">",
+			"item$3",
+			"</a>"
+		],
+		"description": "snippet for a with class"
+	}
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/* imgc */
+{
+	"img_class": {
+		"scope": "html",
+		"prefix": "imgc",
+		"body": [
+			"<img class=\"$1\" src=\"$2\" alt=\"$3\">"
+		],
+		"description": "snippet for img wits class"
+	}
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+/*form1*/
+{
+	"form1": {
+		"scope": "html",
+		"prefix": "form1",
+		"body": [
+			"<form class=\"form\" action=\"https://jsonplaceholder.typicode.com/posts\" method=\"post\">",
+			"<h2 class=\"form__title\">",
+			"text",
+			"</h2>",
+			"<div class=\"form__section\">",
+			"<input class=\"form__input\" type=\"text\" name=\"name\" placeholder=\"Фамилия, имя и отчество&#42;\">",
+			"<input class=\"form__input\" type=\"email\" name=\"email\" placeholder=\"E-mail&#42;\">",
+			"<textarea class=\"form__textarea\" name=\"comment\" placeholder=\"Сообщение\"></textarea>",
+			"</div>",
+			"<div class=\"form__bottom\">",
+			"<button class=\"btn btn-reset form__btn\">",
+			"text",
+			"</button>",
+			"<label class=\"form__label\" for=\"agree\">",
+			"<input class=\"form__checkbox\" id=\"agree\" type=\"checkbox\" name=\"agree\" checked>",
+			"Согласен на&nbsp;обработку данных",
+			"<span class=\"form__checkbox-style\"></span>",
+			"</label>",
+			"</div>",
+			"</form>"
+		],
+		"description": "snippet for form html"
+	}
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*fofa*/
+{
+	"fontface1": {
+		"scope": "css",
+		"prefix": "fofa",
+		"body": [
+			"@font-face {",
+			"font-family: 'fontname';",
+			"src: local('font-Regular'),",
+			"url('') format('woff2'),",
+			"url('') format('woff');",
+			"font-weight: 400;",
+			"font-style: normal;",
+			"font-display: swap;",
+			"}",
+			"",
+			"@font-face {",
+			"font-family: 'fontname';",
+			"src: local('font-Medium'),",
+			"url('') format('woff2'),",
+			"url('') format('woff');",
+			"font-weight: 500;",
+			"font-style: normal;",
+			"font-display: swap;",
+			"}",
+			"",
+			"@font-face {",
+			"font-family: 'fontname';",
+			"src: local('font-Bold'),",
+			"url('') format('woff2'),",
+			"url('') format('woff');",
+			"font-weight: 700;",
+			"font-style: normal;",
+			"font-display: swap;",
+			"}",
+			"",
+			"body {",
+				"font-family: 'fontname', sans-serif;",
+				"font-weight: 400;",
+			"}",
+			""
+		],
+		"description": "snippet for font-family"
+	}
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*cssstart*/
+{
+	"cssstart": {
+		"scope": "css",
+		"prefix": "cssstart",
+		"body": [
+			"html {",
+				"box-sizing: border-box;",
+				"scroll-behavior: smooth;",
+			"}",
+			"",
+			"*,",
+			"*::before,",
+			"*::after {",
+				"box-sizing: inherit;",
+			"}",
+			"",
+			"@font-face {",
+			"font-family: 'fontname';",
+			"src: local('font-Regular'),",
+			"url('') format('woff2'),",
+			"url('') format('woff');",
+			"font-weight: 400;",
+			"font-style: normal;",
+			"font-display: swap;",
+			"}",
+			"",
+			"@font-face {",
+			"font-family: 'fontname';",
+			"src: local('font-Medium'),",
+			"url('') format('woff2'),",
+			"url('') format('woff');",
+			"font-weight: 500;",
+			"font-style: normal;",
+			"font-display: swap;",
+			"}",
+			"",
+			"@font-face {",
+			"font-family: 'fontname';",
+			"src: local('font-Bold'),",
+			"url('') format('woff2'),",
+			"url('') format('woff');",
+			"font-weight: 700;",
+			"font-style: normal;",
+			"font-display: swap;",
+			"}",
+			"",
+			"body {",
+				"font-family: 'fontname', sans-serif;",
+				"font-weight: 400;",
+			"}",
+			"",
+			"a {",
+				"color: inherit;",
+				"text-decoration: none;",
+			"}",
+			"",
+			"img {",
+				"max-width: 100%;",
+			"}",
+			"",
+			"h1,",
+			 "h2,",
+       "h3,",
+       "p {",
+        "margin: 0;",
+        "padding: 0;",
+        "}",
+				"",
+				":root {",
+				"--gap: ;",
+				"--text-color: ;",
+  "--main-color: ;",
+  "--active-color: ;",
+  "--time: .2s;",
+  "--style: ease-in-out;",
+  "--background-transition: background var(--time) var(--style);",
+  "--color-transition: color var(--time) var(--style);",
+  "--focus-transition: outline-color var(--time) var(--style);",
+				"}",
+				"",
+				".list-reset {",
+					"margin: 0;",
+					"padding: 0;",
+					"list-style: none;",
+					"}",
+					"",
+					".btn-reset {",
+						"padding: 0;",
+						"border: none;",
+						"background-color: transparent;",
+						"cursor: pointer;",
+					"}",
+					"",
+					".btn {",
+						"font-size: ;",
+						"line-height: ;",
+						"font-weight: ;",
+						"color: ;",
+						"background-color: ;",
+					"}",
+				"",
+				".flex {",
+					"display: flex;",
+				"}",
+				"",
+				".container {",
+					"max-width: ;",
+					"margin: 0 auto;",
+					"padding-right: ;",
+					"padding-left: 20px;",
+				"}",
+				"",
+				".section-gap {",
+					"margin-bottom: var(--gap);",
+				"}",
+				"",
+
+		],
+		"description": "snippet for css start & reset"
+	}
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/checkcss/
+{
+	
+	"checkbox": {
+		"scope": "css",
+		"prefix": "checkcss",
+		"body": [
+			".form__label {",
+				"position: relative;",
+				"font-size: 16px;",
+				"font-weight: 400;",
+				"padding-left: 18px;",
+				"color: ;",
+				"cursor: pointer;",
+			"}",
+			"",
+			".form__checkbox {",
+				"opacity: 0;",
+				"width: 0;",
+			"}",
+			"",
+			".form__checkbox+.form__checkbox-style {",
+				"position: absolute;",
+				"top: 0;",
+				"left: 0;",
+				"width: 14px;",
+				"height: 14px;",
+				"text-align: center;",
+				"border: 1px solid var(--footer-text);",
+			"}",
+			"",
+			".form__checkbox:focus~.form__checkbox-style {",
+				"border-color: var(--main-color);",
+			"}",
+			"",
+			".form__checkbox+.form__checkbox-style::before {",
+				"content: 'символьный код для галочки';",
+				"position: absolute;",
+				"top: 0;",
+				"right: 0;",
+				"bottom: 0;",
+				"left: 0;",
+				"font-size: 13px;",
+				"text-align: center;",
+				"font-weight: 500;",
+				"color: #97ee3f;",
+				"opacity: 0;",
+				"transition: opacity .2s ease-in-out;",
+			"}",
+			"",
+			".form__checkbox:checked+.form__checkbox-style::before {",
+				"opacity: 1;",
+			"}",
+		],
+		"description": "snippet for checkbox css"
+	}
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*checkhtml*/
+{
+	"checkbox_html": {
+		"scope": "html",
+		"prefix": "checkhtml",
+		"body": [
+			"<label class=\"form__label\" for=\"agree\">",
+            "<input class=\"form__checkbox\" id=\"agree\" type=\"checkbox\" name=\"agree\" checked>",
+            "Согласен на&nbsp;обработку данных",
+            "<span class=\"form__checkbox-style\"></span>",
+          "</label>"
+		],
+		"description": "snippet for checkbox html"
+	}
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
